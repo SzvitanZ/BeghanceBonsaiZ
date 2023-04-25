@@ -66,12 +66,12 @@ border: 1px solid #FFFFFF;
 transform: rotate(-25deg);
 }
 
-#navbar{
+.navbar{
     display:flex;
     flex-wrap:wrap;
     justify-content: space-between;   
     padding: 10px 50px;
-    font-family: "Poppins";
+    font-family:"Poppins";
     align-items:center;
     
 }
@@ -102,15 +102,12 @@ transform: rotate(-25deg);
 }
 
 .navbarright div{ 
-    border-radius: 5px;
-    border-color: #00b289;
-    border:1px solid;
-    padding: 3px 20px;
+    border-radius: 3px;
+    padding: 5px 25px;
 }
 
 #navbarright-first{
-    border: 1px solid #00b289;
-    /* padding: 3px 15px; */
+    border: 1px solid #00b289;   
     background-color: #FFFFFF;
     color:#00b289;
 }
@@ -154,7 +151,7 @@ span {
     content: "\2938";
     font-size: 30px;
     color: #00b289;
-  }
+}
 
 
 .term {
@@ -212,11 +209,11 @@ span {
     background-color: white;
     -webkit-transition: .4s;
     transition: .4s;
-  } 
+} 
   
-  input:checked + .slider {
+input:checked + .slider {
     background-color: #00b289;
-  }
+}
   
 input:checked + .slider:before {
     -webkit-transform: translateX(18px);
@@ -254,60 +251,95 @@ input:checked + .slider:before {
     flex-wrap: wrap;
     border: 1px solid #4c4d5f;
     background-color: #FFFFFF;
-    margin-left: 25px;
+    margin-left: 35px;
+    margin-right: 25px;
     
     padding: 35px;
-    border-radius: 5px;
+    border-radius: 2px;
     max-width: 350px;
     min-width: 250px;
     max-height: 850px;
-    min-height: 550px;
+    min-height: 500px;
     box-sizing: content-box;
     flex-direction:column;
     
 }
 
-
+.action-price{
+    display:flex;
+    /* flex-wrap:wrap; */
+    border-bottom: 2px solid #00b289;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 20px;
+}
 
 p{
     font-size: 18px;
     margin-bottom:20px;
 }
 
-
-p2{
-    border-block-end-width: 2px #00b289;
-
-}
-p22 {
-    font: size 36px;
+.action-price :first-child {
+    align-self:flex-start;
+    font-size: 20px;
+    padding:5px;
 }
 
+.action-price :nth-child(2){
+    font-size:40px;
+    max-height:45px;
+    padding-right:5px;
 
+}
+
+.action-price :nth-child(3){
+    font: size 20px;
+    max-height: 20px;
+    padding-right: 5px;
+    align-self: flex-end;
+    
+}
+    
+
+
+.lines{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
 
 p3{
     font-size:12px;
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     
 }
+
 
 button {
     
     color: #ffff;
+    font-family: "Poppins";
     background-color: #00b289;
     border: 1px solid  #00b289;
-    border-radius: 5px;
+    border-radius: 2px;
     padding: 3px 35px;
     text-align: center;
-    font-family: "Poppins";
-    margin: 20 0 20 0px;
+    margin-top: 30px;
     max-width: 340px;
     min-width: 210px;
     max-height: 30px;
     min-height: 26px;
     
-    
 }
+
+#special-yellow{
+    background-color: gold;
+    color:#FFFFFF;
+}
+
 
 #workflow{
     margin-bottom: 40px;
