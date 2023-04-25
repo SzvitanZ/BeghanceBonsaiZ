@@ -14,7 +14,9 @@ html {
 }
 
 body {
-    min-height: 100vh;
+    width: 100%;
+   /*  min-height: 100vh; */
+    height:100%;
     color: #4c4d5f;
     position: relative;
     /* width: 1024px;
@@ -240,7 +242,6 @@ input:checked + .slider:before {
     width:100%;
     background-color: #FFFFFF;
     font-family: "Poppins";
-    border-radius: 5px;
     border:#4c4d5f;
     
     
@@ -321,7 +322,7 @@ p3{
 button {
     
     color: #ffff;
-    font-family: "Poppins";
+    font-family: 'Poppins';
     background-color: #00b289;
     border: 1px solid  #00b289;
     border-radius: 2px;
@@ -341,18 +342,46 @@ button {
 }
 
 
-#workflow{
-    margin-bottom: 40px;
-    margin-left: 40px;
+#subhead {
+    font-size:20px;
+    text-align:center;
+    margin-top:50px;
+    margin-bottom:30px;
+    inline-size:100%;
 }
 
 
+#Qhead {
+    font-size:20px;
+    text-align:center;
+    font-family: 'Poppins';
+    font-weight:100;
+    color:#00b289;
+    margin-top:30px;
+    margin-bottom: 30px;
+    inline-size:100%;
+
+}
 
 
+.Qlist {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-bottom: 30px;
+    margin-right: 70px;
+    margin-left: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-
-
-
+.Qlistline {
+    display:flex;
+    padding: 10px;
+    justify-content:space-between;
+    /* important */
+}
 
 
 /* --- Variables --- */
