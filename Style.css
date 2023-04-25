@@ -144,6 +144,19 @@ transform: rotate(-25deg);
 }
 
 
+.h3{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+span {
+    padding-top: 15px;
+    content: "\2938";
+    font-size: 30px;
+    color: #00b289;
+  }
+
+
 .term {
     display:flex;
     justify-content:space-between;
