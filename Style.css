@@ -231,10 +231,7 @@ input:checked + .slider:before {
     border-radius: 50%;
 }
 
-
-
 .content {
-
     Display:flex;
     flex-wrap:wrap;
     justify-content: center;
@@ -243,16 +240,17 @@ input:checked + .slider:before {
     background-color: #FFFFFF;
     font-family: "Poppins";
     border:#4c4d5f;
-    
+    margin-left: 35px;
+    margin-right: 35px;
     
 }
 
 .content div {
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid #4c4d5f;
+    box-shadow: 1px 1px 15px #4c4d5f;
     background-color: #FFFFFF;
-    margin-left: 35px;
+    margin-left: 25px;
     margin-right: 25px;
     
     padding: 35px;
@@ -261,7 +259,7 @@ input:checked + .slider:before {
     min-width: 250px;
     max-height: 850px;
     min-height: 500px;
-    box-sizing: content-box;
+   /*  box-sizing: content-box; */
     flex-direction:column;
     
 }
@@ -384,4 +382,88 @@ button {
 }
 
 
+#ForAbout{
+    color:#00b289;
+    font-size:12px;
+}
+
+#Comment{
+    font-size:12px;
+}
+
+#Title{
+    font-size: 16px;
+}
+
+.OtherOptions{
+    font-family: 'Poppins';
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    /* max-width: 720px; */
+   
+    
+
+    
+}
+
+.OptionPrice :first-child {
+    align-self:center;
+    font-size: 26px;
+    padding:5px;
+}
+
+.OptionPrice :nth-child(2){
+    font-size:12px;
+    padding-right:5px;
+
+}
+
+.OptionPrice{
+    display:flex;
+    flex-direction:column;
+}
+
+
+
+.Theme {
+    display:flex;
+    /* flex-wrap:wrap; */
+    flex-direction:column;
+}
+
+
+.Projects {
+    display:flex;
+    justify-content:space-between;
+    box-shadow: 1px 1px 15px #4c4d5f;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    gap:15px;
+     
+}
+
+.Submain{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.Specfont {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.Specfont :nth-child(2){
+    color:#00b289;
+}
+
+.Begin{
+    display:flex;
+    flex-wrap:wrap;
+}
 /* --- Variables --- */
