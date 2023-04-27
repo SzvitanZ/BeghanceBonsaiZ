@@ -115,8 +115,8 @@ transform: rotate(-25deg);
     Display:flex;
     flex-wrap:wrap;
     justify-content:space-around;
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin-top: 80px;
+    margin-bottom: 40px;
 
 }
 
@@ -252,8 +252,8 @@ input:checked + .slider:before {
     border-radius: 2px;
     max-width: 350px;
     min-width: 290px;
-    max-height: 850px;
-    min-height: 500px;
+    max-height: 750px;
+    min-height: 400px;
     flex-direction:column;
     
 }
@@ -346,8 +346,8 @@ p3{
 #subhead {
     font-size:24px;
     text-align:center;
-    margin-top:50px;
-    margin-bottom:30px;
+    margin-top:30px;
+    margin-bottom:10px;
     
 }
 
@@ -362,11 +362,11 @@ p3{
 #Qhead {
     font-size:24px;
     text-align:center;
-    font-family: 'Poppins';
+    font-family:'Arial Narrow';
     font-weight: 100 lighter;
     color:#00b289;
-    margin-top:30px;
-    margin-bottom: 30px;
+    margin-top:20px;
+    margin-bottom: 20px;
 }
 
 
@@ -379,7 +379,7 @@ p3{
     padding-right: 30px;
     font-family: Arial, Helvetica, sans-serif;
 
-    max-width: 720px;
+    max-width: 840px;
 }
 
 .Qlistline {
@@ -429,7 +429,7 @@ p3{
    
     align-self:center;
     min-width: 50%;
-    max-width: 900px;
+    max-width: 840px;
     
 }
 
@@ -496,7 +496,7 @@ p3{
     align-self:center;
 
     min-width: 50%;
-    max-width: 900px;
+    max-width: 840px;
    
 
 }
@@ -533,8 +533,6 @@ p3{
     -webkit-transition-duration: 0.4s; 
     transition-duration: 0.4s;
 
-
-
 }
 
 .Bbutton:hover {
@@ -544,16 +542,57 @@ p3{
 
 .footer{
         display: flex;
-        flex-wrap:wrap;
-        min-height: 100vh;
-        flex-direction: column;
-       
-    
+        margin-top:50px;
+        margin-bottom: 50px;
+        justify-content: space-evenly;
+        
 }
 
 .Mainfoot{
     display:flex;
     flex-wrap:wrap;
+    flex-direction:column;
+    font-family: 'Arial Narrow';
+    margin-left:25px;
+         
 }
 
+#Ftitle{
+    font-weight: 800;
+}
+
+
+.Prod{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    margin-top:30px;    
+    margin-bottom: 10px;
+    gap:10px;
+
+}
+
+#Pricing{
+    color:#00b289;
+    Padding-top: 20px;
+}
+
+
+#Temp{
+    padding-top:20px;
+    padding-bottom:20px;
+    font-weight: 800;
+}
+
+#Emp{
+    padding-top: 30px;
+}
+
+#Comp{
+    padding-top:30px;
+}
+
+#Affi{
+    padding-top:30px;
+}
 /* --- Variables --- */
