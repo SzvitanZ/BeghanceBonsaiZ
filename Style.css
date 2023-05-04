@@ -235,9 +235,10 @@ input:checked + .slider:before {
     background-color: #FFFFFF;
     /* margin-left: 25px;
     margin-right: 25px;*/
-    padding: 35px;
+    padding: 45px;
     border-radius: 1px;
-    max-width: 350px;
+    width:25.4em;
+   /*  max-width: 350px; */
     /* min-width: 290px;
     max-height: 750px;
     min-height: 400px; */
@@ -281,18 +282,28 @@ p{
  #trapezoid {
     background-color: #00b289;
     color:#FFFFFF;
-    transform:rotate(49deg);
+    transform:rotate(43deg);
    /*  https://codepen.io/stoumann/full/abZxoOM */
     /* clip-path: polygon(19% 3%,67% 4%,83% 13%,9% 12%); */
     /* clip-path: polygon(20% 13%,80% 13%,100% 43%,1% 43%); */
    /*  clip-path: polygon(12% 13%,88% 13%,100% 43%,1% 43%); */
     /* clip-path: polygon(12% 13%,88% 13%,100% 56%,0% 56%); */
-    clip-path: polygon(12% 13%,83% 13%,100% 56%,0% 56%);
+   /*  clip-path: polygon(12% 13%,83% 13%,100% 56%,0% 56%); */
+    /* clip-path: polygon(19% 20%,69% 20%,100% 68%,0% 68%); */
+    /* clip-path: polygon(15% 20%,79% 20%,100% 68%,0% 68%); */
+    /* clip-path: polygon(10.00% 20.00%,82% 20%,100% 68%,0% 68%); */
+    /* clip-path: polygon(10.00% 20.00%,85% 20%,100% 68%,0% 68%); */
+    /* clip-path: polygon(10.00% 20.00%,92.00% 20.00%,100% 68%,0% 68%); */
+    /* clip-path: polygon(10.00% 20.00%,60% 20%,68.00% 68.00%,0% 68%); */
+    clip-path: polygon(12% 20%,57.00% 20.00%,68.00% 68.00%,0% 68%);  
+    /* clip-path: polygon(10% 20%,59% 20%,68% 68%,0% 68%); */
+    /* clip-path: polygon(11% 20%,59% 20%,68% 68%,0% 68%); */
+
     border:2px solid #00b289;
-    padding-left: 60px;
-    padding-top:15px;
-    top:7%;
-    right:-13.1%;
+    padding-left: 80px;
+    padding-top:30px;
+    top:12.5%;
+    right:-40%;
     position:absolute;
    
  
@@ -374,7 +385,7 @@ p3{
 }
 
 .Qlistline {
-    width:70%;
+    width:55%;
     display:flex;
     padding: 10px;
     justify-content:space-between;
